@@ -1,3 +1,3 @@
-let a = "c";
-a = "t";
+let a = "C";
+a = "T";
 console.log(a)
