@@ -1,4 +1,4 @@
 let a = 3, b = 4;
-a = b;
+b = a;
 console.log(a,b);
 console.log(a*b);
