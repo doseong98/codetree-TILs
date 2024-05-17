@@ -1,5 +1,5 @@
 const fs = require("fs");
-let arr = fs.readFileSync(0).toString();
+let arr = fs.readFileSync(0).toString().trim();
 let a = Number(arr[0]);
 let ex = a*a;
 
