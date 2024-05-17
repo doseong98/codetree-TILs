@@ -1,6 +1,6 @@
 const fs = require("fs");
 let arr = fs.readFileSync(0).toString().trim();
-let n = Number(arr[0]);
+let n = Number(arr);
 let ex = n**2;
 
 console.log(ex);
