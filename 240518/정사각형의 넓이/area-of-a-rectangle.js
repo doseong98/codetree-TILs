@@ -1,9 +1,9 @@
 const fs = require("fs");
 let arr = fs.readFileSync(0).toString().trim();
-let a = Number(arr[0]);
-let ex = a*a;
+let n = Number(arr[0]);
+let ex = n**2;
 
 console.log(ex);
-if (a < 5) {
+if (n < 5) {
     console.log("tiny");
 };
