@@ -3,5 +3,5 @@ let arr = fs.readFileSync(0).toString().split(" ");
 let a = Number(arr[0]), b = Number(arr[1]);
 
 if (a > b) {
-    console.log(a = b);
+    console.log(a - b);
 }else {console.log(b - a)};
