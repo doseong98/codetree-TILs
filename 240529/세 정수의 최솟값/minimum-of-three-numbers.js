@@ -6,15 +6,17 @@ let a = Number(arr[0]), b = Number(arr[1]), c = Number(arr[2]);
 let d = 0, e = 0;
 
 if(a <= b && a <= c) {
-    console.log(a)
+    d = a
 }   
 
 
 if(b <= a && b <= c) {
-    console.log(b)
+    d = b
 }
 
 
 if(c <= a && c <= b) {
-    console.log(c)
+    d = c
 }
+
+console.log(d)
