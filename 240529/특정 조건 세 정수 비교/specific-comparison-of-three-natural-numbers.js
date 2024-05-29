@@ -10,7 +10,7 @@ if(a <= b && a <= c) {
 }
 
 if (a === b && b === c) {
-    e = 0
+    e = 1
 }
 
 console.log(d,e)
