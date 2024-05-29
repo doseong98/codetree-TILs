@@ -1,0 +1,9 @@
+const fs = require("fs");
+let arr = fs.readFileSync(0).toString().trim().split(" ");
+let a = Number(arr[0]), b = Number(arr[1]);
+
+if(a < 90) {
+    console.log(0)
+}else if (b >= 95) {
+    console.log(100000)
+}else console.log(50000)
