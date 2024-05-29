@@ -1,15 +1,16 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split("\n");
-let arr = input.join(" ").split(" ")
-let Am = Number(arr[0]), Ae = Number(arr[1]), Bm = Number(arr[2]), Be = Number(arr[3]);
-let answer = 0;
 
-if (Am > Bm) {
-    answer = "A"
-}else answer = "B"
+let scoreA = input[0].split(" ");
+let scoreB = input[1].split(" ");
 
-if (Am === Bm && Ae > Be) {
-     answer = "A"
-}else answer = "B"
+let mathA = Number(scoreA[0]), engA = Number(scoreA[1]);
+let mathB = Number(scoreB[0]), engB = Number(scoreB[1]);
 
-console.log(answer)
+// 출력
+if (mathA > mathB || (mathA == mathB && engA > engB)) {
+    console.log("A");
+} 
+else {
+    console.log("B");
+}
